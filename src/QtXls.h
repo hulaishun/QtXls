@@ -3,7 +3,7 @@
 
 #include "qtxls_global.h"
 
-class QTXLSSHARED_EXPORT QtXls
+class QTXLS_EXPORT QtXls
 {
 
 public:
