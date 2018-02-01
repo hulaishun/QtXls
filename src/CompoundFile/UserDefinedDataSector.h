@@ -1,11 +1,12 @@
-#ifndef COMPOUNDFILEUSERDEFINEDDATASECTOR_H
-#define COMPOUNDFILEUSERDEFINEDDATASECTOR_H
+#ifndef USER_DEFINED_DATA_SECTOR_H
+#define USER_DEFINED_DATA_SECTOR_H
 
+#include "AbstractSector.h"
 
-class CCompoundFileUserDefinedDataSector
+class CUserDefinedDataSector : public CAbstractSector
 {
 public:
-    CCompoundFileUserDefinedDataSector();
+    CUserDefinedDataSector();
 };
 
-#endif // COMPOUNDFILEUSERDEFINEDDATASECTOR_H
+#endif // USER_DEFINED_DATA_SECTOR_H

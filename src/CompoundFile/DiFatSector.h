@@ -1,11 +1,12 @@
-#ifndef COMPOUNDFILEDIFATSECTOR_H
-#define COMPOUNDFILEDIFATSECTOR_H
+#ifndef DIFAT_SECTOR_H
+#define DIFAT_SECTOR_H
 
+#include "AbstractSector.h"
 
-class CCompoundFileDiFatSector
+class CDiFatSector : public CAbstractSector
 {
 public:
-    CCompoundFileDiFatSector();
+    CDiFatSector();
 };
 
-#endif // COMPOUNDFILEDIFATSECTOR_H
+#endif // DIFAT_SECTOR_H

@@ -1,11 +1,12 @@
-#ifndef COMPOUNDFILEMINIFATSECTOR_H
-#define COMPOUNDFILEMINIFATSECTOR_H
+#ifndef MINI_FAT_SECTOR_H
+#define MINI_FAT_SECTOR_H
 
+#include "AbstractSector.h"
 
-class CCompoundFileMiniFatSector
+class CMiniFatSector : public CAbstractSector
 {
 public:
-    CCompoundFileMiniFatSector();
+    CMiniFatSector();
 };
 
-#endif // COMPOUNDFILEMINIFATSECTOR_H
+#endif // MINI_FAT_SECTOR_H

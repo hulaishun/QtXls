@@ -1,6 +1,7 @@
-#include "CompoundFileDiFatSector.h"
+#include "stdafx.h"
+#include "DiFatSector.h"
 
-CCompoundFileDiFatSector::CCompoundFileDiFatSector()
+CDiFatSector::CDiFatSector()
 {
 
 }

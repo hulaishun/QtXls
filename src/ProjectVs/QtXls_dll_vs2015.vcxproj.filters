@@ -11,6 +11,24 @@
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
       <ParseFiles>true</ParseFiles>
     </Filter>
+    <Filter Include="CompoundFile">
+      <UniqueIdentifier>{901585d6-5951-4535-8257-53ce53eb8a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StoragesAndStreams">
+      <UniqueIdentifier>{e522042a-0f5b-47a0-a92a-17816f4bee04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Records">
+      <UniqueIdentifier>{c17d974d-4816-4024-9cf6-c718c2d8ef1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures">
+      <UniqueIdentifier>{106726a3-cb90-468d-a744-905f1291b11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\ParsedExpressions">
+      <UniqueIdentifier>{339139ff-5579-4787-8f08-a148db4ba970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XcbStructures">
+      <UniqueIdentifier>{c6a6ab8d-f4e7-4358-89a8-01ce86f5fce4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\QtXls.cpp">
@@ -18,6 +36,1527 @@
     </ClCompile>
     <ClCompile Include="..\stdafx.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CompoundFile\AbstractSector.cpp">
+      <Filter>CompoundFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CompoundFile\ByteOrder.cpp">
+      <Filter>CompoundFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CompoundFile\CompoundFile.cpp">
+      <Filter>CompoundFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CompoundFile\DiFatSector.cpp">
+      <Filter>CompoundFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CompoundFile\DirectorySector.cpp">
+      <Filter>CompoundFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CompoundFile\FatSector.cpp">
+      <Filter>CompoundFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CompoundFile\Header.cpp">
+      <Filter>CompoundFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CompoundFile\MiniFatSector.cpp">
+      <Filter>CompoundFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CompoundFile\RangeLockSector.cpp">
+      <Filter>CompoundFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CompoundFile\SectorType.cpp">
+      <Filter>CompoundFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CompoundFile\UserDefinedDataSector.cpp">
+      <Filter>CompoundFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\ComponentObjectStream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\ControlStream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\DataSpacesStorage.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\DocumentSummaryInformationStream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\EmbeddingStorage.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\EncryptionStream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\LinkDataStream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\LinkDataStreamAttributes.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\LinkDataStreamElements.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\LinkStorage.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\OfficeDataStoreStorage.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\OfficeToolbarsStream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\OleStream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\PivotCasheStorage.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\ProtectedContentStream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\RevisionStream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\SignaturesStream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\SummaryInfomationStream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\UserNamesStream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\VbaStorage.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\ViewerContentStream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\WorkbookChartSheetSubstream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\WorkbookCommonProductions.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\WorkbookDialogSheetSubstream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\WorkbookGlobalsSubstream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\WorkbookMacroSheetSubstream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\WorkbookStream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\WorkbookWorkSheetSubstream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\XmlSignaturesStorage.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\XmlStream.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\XmlStreamElements.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StoragesAndStreams\XmlStreamSimpleTypes.cpp">
+      <Filter>StoragesAndStreams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Records\AlRuns.cpp">
+      <Filter>Records</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Records\Area.cpp">
+      <Filter>Records</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Records\AreaFormat.cpp">
+      <Filter>Records</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\AddinUdf.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Af12CellIcon.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Af12Criteria.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\AF12DataInfo.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\AFDOper.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\AFDOperBoolErr.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\AFDOperRk.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\AFDOperStr.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\AutoFmt8.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Bes.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Bold.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\BookExtConditional11.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\BookExtConditional12.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Boolean.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\BorderStyle.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\BuildInStyle.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CachedDiskHearder.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Cch255.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Cell.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CellXF.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFColor.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFDatabar.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFExAveragesTemplateParams.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFExDataTemplateParams.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFExDefaultTemplateParams.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFExFliterParams.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFExNonCF12.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFExTemplateParams.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFExTextTemplateParams.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFFlag.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFFliter.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFGradient.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFGradientInterpItem.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFGreadientItem.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFMStateItem.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFMulltistate.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFrtId.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFT.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CFVO.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ChartNumNillable.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Col.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Col12.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Col256U.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ColBtye.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ColByteU.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ColElfU.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ColIcoU.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ColNegativeOne.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ColorICV.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ColorTheme.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ColRelNegU.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ColSIco8U.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ColU.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Colx.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CondDataValue.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CondFmtStructure.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ConnGrbitDbaOledb.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ConnGrbitDbt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ConnGrbitDbtAdo.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ConnGrbitDbtWeb.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ControlInfo.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\CrtLayout12Mode.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DataAsNum.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DataFunctionalityLevel.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DataSourceType.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DataUnit.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DCol.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DColByteU.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DConFile.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DConnConnectionOleDb.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DConnConnectionWeb.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DConnId.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DConnParamBinding.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DConnParamBindingValByte.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DConnParamBindingValInt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DConnParamBindingValString.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DConnParamBindingValType.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DConnParameter.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DConnStringSequence.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DConnUnicodeStringSegmented.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DJoin.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DRw.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DRwByteU.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Duce.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DuceRadical.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DuceStacked.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Ducr.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DucrConditionalLbl.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DucrConditionalNoLbl.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DwQsiFutrue.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DXBBntD.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DXFALC.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DXFBdr.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DXFId.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DXFN.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DXFN12.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DXFN12List.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DXFN12NoCB.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DXFNum.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DXFNumIFmt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DXFNumUsr.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DXFPat.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\DXFProt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\EnhancedProtection.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ExternDdeLinkNoOper.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ExternDocName.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ExternOleDbeLink.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ExtProp.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ExtRst.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FactoidData.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FbSbs.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Feat11CellStruct.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Feat11FdaAutoFliter.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Feat11FieldDataItem.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Feat11Fmla.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Feat11RgInvalidCells.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Feat11RgSharepointIdChange.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Feat11RgSharepointIdDel.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Feat11TotalFmla.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Feat11WSSListInfo.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Feat11XMap.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Feat11XMapEntry.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Feat11XMapEntry2.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FeatFormulaErr2.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FeatProtection.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FeatSmartTag.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FFErrorCheck.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FillPattern.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FillStylePropertiesForShapePropsStreamChecksum.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FontIndex.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FontInfo.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FontScheme.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FormatRun.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FormulaValue.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FrHeaderOld.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FrHearder.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FrRefHeader.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FrRefHeaderU.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FrtFlags.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FrtRefHeaderNoGrbit.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FTcBLS.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FtCblsData.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FtCf.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FtCmo.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FtEdoData.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FtGboData.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FtGmo.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FtLbsData.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FtMacro.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FtNts.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FtPictFmla.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FtPioGrbit.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FtRbo.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FtRboData.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\FullColorExt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\GradStop.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\HiddenMemberSet.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\HideObjEnum.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\HorzBrk.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\IcV.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\IcvChart.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\IcvFont.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\IcvXF.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\IFmt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\InteriorColorPropertiesForShapePropsStreamChecksum.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ISSInf.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\IXFCell.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\KPIProp.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\KPISets.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\LbsDropData.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\LEMMode.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\LinePropertiesForShapePropsStreamChecksum.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\List12BlockLevel.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\List12DisplayName.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\List12TableSytleClientInfo.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\LongRGB.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\LongRGBA.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\LPWideString.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\MDir.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\MDTInfoIndex.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\MDXStrIndex.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\MOper.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\NilChartNum.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\NoteRRR.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\NoteSh.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ObjFmla.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ObjId.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ODBCType.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\OfficeArtClientAnchorChart.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\OfficeArtClientAnchorHF.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\OfficeArtClientAnchorSheet.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\OfficeArtClientData.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\OfficeArtClientTextbox.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\PaneType.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParamQryFixed.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\PBT.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\PhRuns.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Phs.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\PictFmlaEmbedInfo.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\PictFmlaKey.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\PivotCompProp.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\PositionMode.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ReadingOrder.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Ref.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Ref8.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Ref8U.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Ref8U2007.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\RevisionType.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\RFX.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\RichTextStreamChecksumData.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\RichTextStreamChecksumFontInformation.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\RichTextStreamChecksumFontInformationArrayItem.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\RkNumber.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\RkRec.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\RRD.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\RRDDefNameFlags.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\RRHSSub.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\RRLoc.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\RTDEItem.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\RTDOper.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\RTDOperStr.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Run.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Rw.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Rw12.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\RwLongU.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\RwU.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Rwx.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Script.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SDSetSortOrder.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SecurityDescriptor.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ShapePropsStreamChecksumData.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SharedFeatureType.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SheetExtOptional.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ShortDTR.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ShortXLUnicodeString.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SLCO8.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SortCond12.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SortItem.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SourceType.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SQElfFlags.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SqRef.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SqRefU.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Stxp.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\StyleXF.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SXAddlHdr.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SXAddlSXDEnd.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SXAddlSXDVerUpdInv.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SXAddlSXString.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SXAxis.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SXEZDoper.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SxFT.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SxIvdCol.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SxIvdRw.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SXLIItem.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SXPIItem.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SXVDExOpt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SXView9Save.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\SXVIFlags.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\TabId.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\TabIndex.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\TableFeatureType.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\TagFnMDX.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\TextPropsStreamChecksumData.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Top10FT.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Ts.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\TxOLastRun.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\TxORuns.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\TxtWf.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Underline.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\VertAlign.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\VertBrk.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\VirtualPath.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\WebPubString.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XColorType.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XFExtGradient.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XFExtNotFRT.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XFIndex.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XFProp.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XFPropBorder.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XFPropGradient.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XFPropGradientStop.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XFProps.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XFPropTextRotation.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XLNameUnicodeString.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XlsFilterCriteria.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XlsFilterTop10.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XLUnicodeRichExtendedString.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XLUnicodeString.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XLUnicodeStringMin2.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XLUnicodeStringNoCch.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XLUnicodeStringSegmented.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XLUnicodeStringSegmentedRTD.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XLUnicodeStringSegmentedSXAddl.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkBackWallThicknessFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkBaseTimeUnitFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkBlob.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkBool.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkChain.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkColorMappingOverride.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkDispBlanksAsFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkDouble.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkDWord.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkEndSurface.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkFloorThicknessFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkFormatCodeFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkHeader.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkHeightPercent.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkLogBaseFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkMajorUnitFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkMajorUnitTypeFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkMaxFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkMinFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkMinorUnitFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkMinorUnitTypeFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkNoMultiLvlLbl.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkOverlay.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkPerspectiveFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkPieComboFrom12Frt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkRAngAxOffFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkRotXFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkRotYFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkShowDLblsOverMax.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkSpb.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkStart.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkStartSurface.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkString.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkStyle.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkSymbolFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkThemeOverride.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkTickLabelPositionFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkTickLabelSkipFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkTickMarkSkipFrt.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkToken.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XmlTkTpb.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\Xnum.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XORObfuscation.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\XTI.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\ArrayParsedFormula.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\BErr.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\CellParsedFormula.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\Cetab.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\CFParsedFormula.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\CFParsedFormulaNoCCE.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\CFVOParsedFormula.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\ChartParsedFormula.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\DVParsedFormula.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\ExtNameParsedFormula.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\ExtPtgArea3D.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\ExtPtgAreaErr3D.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\ExtPtgErr.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\ExtPtgRef3D.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\ExtPtgRefErr3D.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\ExtSheetPair.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\Ftab.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\Ilel.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\ListParsedArrayFormula.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\ListParsedFormula.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\NameParsedFormula.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\ObjectParsedFormula.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\ParameterParsedFormula.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PivotParsedFormula.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\Ptg.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgAdd.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgArea.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgArea3d.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgAreaErr.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgAreaErr3d.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgAreaN.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgArray.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgAttrBaxcel.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgAttrChoose.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgAttrGoto.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgAttrIf.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgAttrSemi.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgAttrSpace.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgAttrSpaceSemi.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgAttrSpaceType.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgAttrSum.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgBool.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgConcat.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgDataType.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgDiv.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgElfCol.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgElfColS.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgElfColSV.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgElfColV.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgElfLel.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgElfRadical.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgElfRadicalLel.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgElfRadicalS.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgElfRw.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgElfRwV.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgEq.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgErr.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgExp.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgExtraArray.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgExtraElf.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgExtraMem.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgFunc.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgFuncVar.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgGe.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgGt.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgInt.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgIsect.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgLe.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgLt.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgMemArea.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgMemErr.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgMemFunc.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgMemNoMem.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgMissArg.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgMul.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgName.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgNameX.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgNe.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgNum.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgParen.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgPercent.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgPower.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgRange.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgRef.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgRef3d.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgRefErr.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgRefErr3d.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgRefN.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgStr.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgSub.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgSxName.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgTbl.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgUminus.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgUnion.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\PtgUplus.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\RevExtern.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\RevItab.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\RevLblName.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\RevName.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\RevNamePly.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\RevNameTabid.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\RevSheetName.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\RgbExtra.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\Rgce.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\RgceArea.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\RgceAreaRel.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\RgceElfLoc.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\RgceElfLocExtra.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\RgceLoc.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\RgceLoc8.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\RgceLocRel.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\SerAr.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\SerBool.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\SerErr.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\SerNil.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\SerNum.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\SerStr.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\SharedParsedFormula.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Structures\ParsedExpressions\XtiIndex.cpp">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XcbStructures\Ctb.cpp">
+      <Filter>XcbStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XcbStructures\Ctbs.cpp">
+      <Filter>XcbStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XcbStructures\CtbWrapper.cpp">
+      <Filter>XcbStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XcbStructures\Tbc.cpp">
+      <Filter>XcbStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XcbStructures\TbcCmd.cpp">
+      <Filter>XcbStructures</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -29,6 +1568,1527 @@
     </ClInclude>
     <ClInclude Include="..\stdafx.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CompoundFile\AbstractSector.h">
+      <Filter>CompoundFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CompoundFile\ByteOrder.h">
+      <Filter>CompoundFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CompoundFile\CompoundFile.h">
+      <Filter>CompoundFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CompoundFile\DiFatSector.h">
+      <Filter>CompoundFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CompoundFile\DirectorySector.h">
+      <Filter>CompoundFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CompoundFile\FatSector.h">
+      <Filter>CompoundFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CompoundFile\Header.h">
+      <Filter>CompoundFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CompoundFile\MiniFatSector.h">
+      <Filter>CompoundFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CompoundFile\RangeLockSector.h">
+      <Filter>CompoundFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CompoundFile\SectorType.h">
+      <Filter>CompoundFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CompoundFile\UserDefinedDataSector.h">
+      <Filter>CompoundFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\ComponentObjectStream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\ControlStream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\DataSpacesStorage.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\DocumentSummaryInformationStream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\EmbeddingStorage.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\EncryptionStream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\LinkDataStream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\LinkDataStreamAttributes.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\LinkDataStreamElements.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\LinkStorage.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\OfficeDataStoreStorage.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\OfficeToolbarsStream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\OleStream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\PivotCasheStorage.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\ProtectedContentStream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\RevisionStream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\SignaturesStream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\SummaryInfomationStream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\UserNamesStream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\VbaStorage.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\ViewerContentStream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\WorkbookChartSheetSubstream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\WorkbookCommonProductions.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\WorkbookDialogSheetSubstream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\WorkbookGlobalsSubstream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\WorkbookMacroSheetSubstream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\WorkbookStream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\WorkbookWorkSheetSubstream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\XmlSignaturesStorage.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\XmlStream.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\XmlStreamElements.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StoragesAndStreams\XmlStreamSimpleTypes.h">
+      <Filter>StoragesAndStreams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Records\AlRuns.h">
+      <Filter>Records</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Records\Area.h">
+      <Filter>Records</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Records\AreaFormat.h">
+      <Filter>Records</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\AddinUdf.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Af12CellIcon.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Af12Criteria.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\AF12DataInfo.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\AFDOper.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\AFDOperBoolErr.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\AFDOperRk.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\AFDOperStr.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\AutoFmt8.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Bes.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Bold.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\BookExtConditional11.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\BookExtConditional12.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Boolean.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\BorderStyle.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\BuildInStyle.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CachedDiskHearder.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Cch255.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Cell.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CellXF.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFColor.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFDatabar.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFExAveragesTemplateParams.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFExDataTemplateParams.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFExDefaultTemplateParams.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFExFliterParams.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFExNonCF12.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFExTemplateParams.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFExTextTemplateParams.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFFlag.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFFliter.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFGradient.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFGradientInterpItem.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFGreadientItem.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFMStateItem.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFMulltistate.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFrtId.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFT.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CFVO.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ChartNumNillable.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Col.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Col12.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Col256U.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ColBtye.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ColByteU.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ColElfU.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ColIcoU.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ColNegativeOne.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ColorICV.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ColorTheme.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ColRelNegU.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ColSIco8U.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ColU.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Colx.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CondDataValue.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CondFmtStructure.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ConnGrbitDbaOledb.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ConnGrbitDbt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ConnGrbitDbtAdo.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ConnGrbitDbtWeb.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ControlInfo.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\CrtLayout12Mode.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DataAsNum.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DataFunctionalityLevel.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DataSourceType.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DataUnit.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DCol.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DColByteU.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DConFile.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DConnConnectionOleDb.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DConnConnectionWeb.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DConnId.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DConnParamBinding.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DConnParamBindingValByte.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DConnParamBindingValInt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DConnParamBindingValString.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DConnParamBindingValType.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DConnParameter.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DConnStringSequence.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DConnUnicodeStringSegmented.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DJoin.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DRw.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DRwByteU.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Duce.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DuceRadical.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DuceStacked.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Ducr.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DucrConditionalLbl.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DucrConditionalNoLbl.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DwQsiFutrue.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DXBBntD.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DXFALC.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DXFBdr.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DXFId.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DXFN.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DXFN12.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DXFN12List.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DXFN12NoCB.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DXFNum.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DXFNumIFmt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DXFNumUsr.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DXFPat.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\DXFProt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\EnhancedProtection.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ExternDdeLinkNoOper.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ExternDocName.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ExternOleDbeLink.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ExtProp.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ExtRst.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FactoidData.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FbSbs.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Feat11CellStruct.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Feat11FdaAutoFliter.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Feat11FieldDataItem.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Feat11Fmla.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Feat11RgInvalidCells.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Feat11RgSharepointIdChange.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Feat11RgSharepointIdDel.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Feat11TotalFmla.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Feat11WSSListInfo.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Feat11XMap.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Feat11XMapEntry.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Feat11XMapEntry2.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FeatFormulaErr2.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FeatProtection.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FeatSmartTag.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FFErrorCheck.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FillPattern.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FillStylePropertiesForShapePropsStreamChecksum.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FontIndex.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FontInfo.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FontScheme.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FormatRun.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FormulaValue.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FrHeaderOld.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FrHearder.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FrRefHeader.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FrRefHeaderU.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FrtFlags.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FrtRefHeaderNoGrbit.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FTcBLS.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FtCblsData.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FtCf.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FtCmo.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FtEdoData.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FtGboData.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FtGmo.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FtLbsData.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FtMacro.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FtNts.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FtPictFmla.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FtPioGrbit.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FtRbo.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FtRboData.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\FullColorExt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\GradStop.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\HiddenMemberSet.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\HideObjEnum.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\HorzBrk.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\IcV.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\IcvChart.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\IcvFont.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\IcvXF.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\IFmt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\InteriorColorPropertiesForShapePropsStreamChecksum.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ISSInf.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\IXFCell.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\KPIProp.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\KPISets.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\LbsDropData.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\LEMMode.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\LinePropertiesForShapePropsStreamChecksum.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\List12BlockLevel.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\List12DisplayName.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\List12TableSytleClientInfo.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\LongRGB.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\LongRGBA.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\LPWideString.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\MDir.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\MDTInfoIndex.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\MDXStrIndex.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\MOper.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\NilChartNum.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\NoteRRR.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\NoteSh.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ObjFmla.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ObjId.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ODBCType.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\OfficeArtClientAnchorChart.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\OfficeArtClientAnchorHF.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\OfficeArtClientAnchorSheet.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\OfficeArtClientData.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\OfficeArtClientTextbox.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\PaneType.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParamQryFixed.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\PBT.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\PhRuns.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Phs.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\PictFmlaEmbedInfo.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\PictFmlaKey.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\PivotCompProp.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\PositionMode.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ReadingOrder.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Ref.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Ref8.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Ref8U.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Ref8U2007.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\RevisionType.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\RFX.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\RichTextStreamChecksumData.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\RichTextStreamChecksumFontInformation.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\RichTextStreamChecksumFontInformationArrayItem.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\RkNumber.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\RkRec.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\RRD.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\RRDDefNameFlags.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\RRHSSub.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\RRLoc.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\RTDEItem.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\RTDOper.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\RTDOperStr.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Run.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Rw.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Rw12.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\RwLongU.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\RwU.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Rwx.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Script.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SDSetSortOrder.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SecurityDescriptor.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ShapePropsStreamChecksumData.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SharedFeatureType.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SheetExtOptional.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ShortDTR.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ShortXLUnicodeString.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SLCO8.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SortCond12.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SortItem.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SourceType.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SQElfFlags.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SqRef.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SqRefU.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Stxp.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\StyleXF.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SXAddlHdr.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SXAddlSXDEnd.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SXAddlSXDVerUpdInv.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SXAddlSXString.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SXAxis.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SXEZDoper.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SxFT.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SxIvdCol.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SxIvdRw.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SXLIItem.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SXPIItem.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SXVDExOpt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SXView9Save.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\SXVIFlags.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\TabId.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\TabIndex.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\TableFeatureType.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\TagFnMDX.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\TextPropsStreamChecksumData.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Top10FT.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Ts.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\TxOLastRun.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\TxORuns.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\TxtWf.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Underline.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\VertAlign.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\VertBrk.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\VirtualPath.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\WebPubString.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XColorType.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XFExtGradient.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XFExtNotFRT.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XFIndex.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XFProp.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XFPropBorder.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XFPropGradient.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XFPropGradientStop.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XFProps.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XFPropTextRotation.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XLNameUnicodeString.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XlsFilterCriteria.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XlsFilterTop10.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XLUnicodeRichExtendedString.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XLUnicodeString.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XLUnicodeStringMin2.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XLUnicodeStringNoCch.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XLUnicodeStringSegmented.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XLUnicodeStringSegmentedRTD.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XLUnicodeStringSegmentedSXAddl.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkBackWallThicknessFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkBaseTimeUnitFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkBlob.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkBool.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkChain.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkColorMappingOverride.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkDispBlanksAsFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkDouble.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkDWord.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkEndSurface.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkFloorThicknessFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkFormatCodeFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkHeader.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkHeightPercent.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkLogBaseFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkMajorUnitFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkMajorUnitTypeFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkMaxFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkMinFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkMinorUnitFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkMinorUnitTypeFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkNoMultiLvlLbl.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkOverlay.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkPerspectiveFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkPieComboFrom12Frt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkRAngAxOffFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkRotXFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkRotYFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkShowDLblsOverMax.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkSpb.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkStart.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkStartSurface.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkString.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkStyle.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkSymbolFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkThemeOverride.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkTickLabelPositionFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkTickLabelSkipFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkTickMarkSkipFrt.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkToken.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XmlTkTpb.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\Xnum.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XORObfuscation.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\XTI.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\ArrayParsedFormula.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\BErr.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\CellParsedFormula.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\Cetab.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\CFParsedFormula.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\CFParsedFormulaNoCCE.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\CFVOParsedFormula.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\ChartParsedFormula.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\DVParsedFormula.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\ExtNameParsedFormula.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\ExtPtgArea3D.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\ExtPtgAreaErr3D.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\ExtPtgErr.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\ExtPtgRef3D.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\ExtPtgRefErr3D.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\ExtSheetPair.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\Ftab.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\Ilel.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\ListParsedArrayFormula.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\ListParsedFormula.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\NameParsedFormula.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\ObjectParsedFormula.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\ParameterParsedFormula.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PivotParsedFormula.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\Ptg.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgAdd.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgArea.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgArea3d.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgAreaErr.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgAreaErr3d.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgAreaN.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgArray.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgAttrBaxcel.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgAttrChoose.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgAttrGoto.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgAttrIf.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgAttrSemi.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgAttrSpace.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgAttrSpaceSemi.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgAttrSpaceType.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgAttrSum.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgBool.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgConcat.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgDataType.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgDiv.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgElfCol.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgElfColS.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgElfColSV.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgElfColV.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgElfLel.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgElfRadical.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgElfRadicalLel.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgElfRadicalS.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgElfRw.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgElfRwV.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgEq.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgErr.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgExp.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgExtraArray.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgExtraElf.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgExtraMem.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgFunc.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgFuncVar.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgGe.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgGt.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgInt.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgIsect.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgLe.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgLt.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgMemArea.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgMemErr.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgMemFunc.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgMemNoMem.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgMissArg.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgMul.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgName.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgNameX.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgNe.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgNum.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgParen.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgPercent.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgPower.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgRange.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgRef.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgRef3d.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgRefErr.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgRefErr3d.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgRefN.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgStr.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgSub.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgSxName.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgTbl.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgUminus.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgUnion.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\PtgUplus.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\RevExtern.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\RevItab.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\RevLblName.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\RevName.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\RevNamePly.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\RevNameTabid.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\RevSheetName.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\RgbExtra.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\Rgce.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\RgceArea.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\RgceAreaRel.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\RgceElfLoc.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\RgceElfLocExtra.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\RgceLoc.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\RgceLoc8.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\RgceLocRel.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\SerAr.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\SerBool.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\SerErr.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\SerNil.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\SerNum.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\SerStr.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\SharedParsedFormula.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Structures\ParsedExpressions\XtiIndex.h">
+      <Filter>Structures\ParsedExpressions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XcbStructures\Ctb.h">
+      <Filter>XcbStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XcbStructures\Ctbs.h">
+      <Filter>XcbStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XcbStructures\CtbWrapper.h">
+      <Filter>XcbStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XcbStructures\Tbc.h">
+      <Filter>XcbStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XcbStructures\TbcCmd.h">
+      <Filter>XcbStructures</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

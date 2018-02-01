@@ -1,6 +1,7 @@
-#include "CompoundFileHeader.h"
+#include "stdafx.h"
+#include "Header.h"
 
-CCompoundFileHeader::CCompoundFileHeader()
+CHeader::CHeader()
 {
 
 }

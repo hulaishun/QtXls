@@ -9,7 +9,9 @@ QT       -= gui
 TARGET = QtXls
 TEMPLATE = lib
 
-DEFINES += QTXLS_LIBRARY
+CONFIG += c++11
+
+DEFINES += QTXLS_LIB
 
 include(QtXls.pri)
 
@@ -27,4 +29,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 unix {
     target.path = /usr/lib
     INSTALLS += target
+}
+
+CONFIG(debug, debug_and_release){
+    DESTDIR = ../../lib/Debug
+}
+else
+{
+    DESTDIR = ../../lib/Release
 }

@@ -1,11 +1,12 @@
-#ifndef RANGELOCKSECTOR_H
-#define RANGELOCKSECTOR_H
+#ifndef RANGE_LOCK_SECTOR_H
+#define RANGE_LOCK_SECTOR_H
 
+#include "AbstractSector.h"
 
-class CRangeLockSector
+class CRangeLockSector : public CAbstractSector
 {
 public:
     CRangeLockSector();
 };
 
-#endif // RANGELOCKSECTOR_H
+#endif // RANGE_LOCK_SECTOR_H

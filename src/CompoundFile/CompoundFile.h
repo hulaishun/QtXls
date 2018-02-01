@@ -2,13 +2,14 @@
 #define COMPOUND_FILE_H
 
 /**
- * @brief       混合文件
+ * @brief       复合(混合)文件
  *
  */
 class CCompoundFile
 {
 public:
-    CCompoundFile();
+    explicit CCompoundFile();
+    ~CCompoundFile();
 };
 
 #endif // COMPOUND_FILE_H

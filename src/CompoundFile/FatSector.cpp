@@ -1,6 +1,7 @@
-#include "CompoundFileFatSector.h"
+#include "stdafx.h"
+#include "FatSector.h"
 
-CCompoundFileFatSector::CCompoundFileFatSector()
+CFatSector::CFatSector()
 {
 
 }

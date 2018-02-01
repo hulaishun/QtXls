@@ -1,11 +1,12 @@
-#ifndef COMPOUNDFILEFATSECTOR_H
-#define COMPOUNDFILEFATSECTOR_H
+#ifndef FAT_SECTOR_H
+#define FAT_SECTOR_H
 
+#include "AbstractSector.h"
 
-class CCompoundFileFatSector
+class CFatSector : public CAbstractSector
 {
 public:
-    CCompoundFileFatSector();
+    CFatSector();
 };
 
-#endif // COMPOUNDFILEFATSECTOR_H
+#endif // FAT_SECTOR_H

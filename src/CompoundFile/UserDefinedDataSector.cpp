@@ -1,6 +1,7 @@
-#include "CompoundFileUserDefinedDataSector.h"
+#include "stdafx.h"
+#include "UserDefinedDataSector.h"
 
-CCompoundFileUserDefinedDataSector::CCompoundFileUserDefinedDataSector()
+CUserDefinedDataSector::CUserDefinedDataSector()
 {
 
 }

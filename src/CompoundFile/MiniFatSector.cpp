@@ -1,6 +1,7 @@
-#include "CompoundFileMiniFatSector.h"
+#include "stdafx.h"
+#include "MiniFatSector.h"
 
-CCompoundFileMiniFatSector::CCompoundFileMiniFatSector()
+CMiniFatSector::CMiniFatSector()
 {
 
 }

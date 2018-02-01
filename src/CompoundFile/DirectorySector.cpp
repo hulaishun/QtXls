@@ -1,6 +1,7 @@
-#include "CompoundFileDirectorySector.h"
+#include "stdafx.h"
+#include "DirectorySector.h"
 
-CCompoundFileDirectorySector::CCompoundFileDirectorySector()
+CDirectorySector::CDirectorySector()
 {
 
 }

@@ -1,11 +1,12 @@
-#ifndef COMPOUNDFILEDIRECTORYSECTOR_H
-#define COMPOUNDFILEDIRECTORYSECTOR_H
+#ifndef DIRECTORY_SECTOR_H
+#define DIRECTORY_SECTOR_H
 
+#include "AbstractSector.h"
 
-class CCompoundFileDirectorySector
+class CDirectorySector : public CAbstractSector
 {
 public:
-    CCompoundFileDirectorySector();
+    CDirectorySector();
 };
 
-#endif // COMPOUNDFILEDIRECTORYSECTOR_H
+#endif // DIRECTORY_SECTOR_H
